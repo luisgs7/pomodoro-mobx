@@ -10,8 +10,8 @@ class Entradatempo extends StatelessWidget {
     super.key,
     required this.titulo,
     required this.valor,
-    required this.inc,
-    required this.dec,
+    this.inc,
+    this.dec,
   });
 
   @override
